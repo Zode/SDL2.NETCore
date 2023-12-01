@@ -76,6 +76,9 @@ namespace SDL2
         public const uint SDL_PIXELFORMAT_YUY2 = 0x32595559;
         public const uint SDL_PIXELFORMAT_UYVY = 0x59565955;
         public const uint SDL_PIXELFORMAT_YVYU = 0x55595659;
+        public const uint SDL_PIXELFORMAT_NV12 = 0x3231564E;
+        public const uint SDL_PIXELFORMAT_NV21 = 0x3132564e;
+        public const uint SDL_PIXELFORMAT_EXTERNAL_OES = 0x2053454f;
 
         /** Pixel type. */
         public enum SDL_PixelType
